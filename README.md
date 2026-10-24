@@ -1,10 +1,12 @@
 # AI Engineering 2027 — Full-stack Progress Tracker
 
-A responsive **Next.js + Supabase (Auth + PostgreSQL)** application for the complete 11-domain AI engineering learning curriculum: **73 sections, 534 checkable topics**. Deployable on **Vercel**.
+A responsive **Next.js + Supabase (Auth + PostgreSQL)** application with account-specific learning plans. Each account starts with an 11-domain AI engineering curriculum: **73 sections, 534 checkable topics**. Deployable on **Vercel**.
 
 ## Features
 
-- Full original curriculum (11 domains / 73 sections / 534 topics), stable numbered topic IDs
+- Personal checklist per account, starting with the original curriculum (11 domains / 73 sections / 534 topics)
+- Add, rename, or remove domains, modules, and topics with **Customize checklist**
+- Choose your current focus, domain priorities, and self-ratings independently per account
 - Email/password signup and login via Supabase Auth
 - Progress synced to PostgreSQL **per authenticated user**
 - Next.js API route (`GET`, `PATCH`, `PUT /api/progress`) with authenticated JWT validation and Supabase RLS
@@ -34,7 +36,7 @@ cp .env.example .env.local
 npm run dev
 ```
 
-Open http://localhost:3000. Create an account, sign in, and toggle a topic. Check `topic_progress` in Supabase Table Editor.
+Open http://localhost:3000. Create an account, sign in, and toggle a topic. Open **Customize checklist** to personalize your plan. Check `account_checklists` in Supabase Table Editor after saving. If upgrading an existing installation, rerun the updated SQL schema first; existing completions carry over automatically.
 
 ## 3. Deploy to Vercel
 
@@ -52,13 +54,24 @@ No separate API server or Vercel database provisioning is required: Next.js rout
 
 All endpoints require `Authorization: Bearer <Supabase access token>`.
 
-- `GET /api/progress` → `{progress:[{topic_id, completed, updated_at}]}`
-- `PATCH /api/progress` with `{topicId:"1.1.1",completed:true}` → `{ok:true,...}`
-- `PUT /api/progress` with `{completedIds:["1.1.1",...]}` → overwrites completion flags for all curriculum items (bulk import/reset)
+- `GET /api/progress` → `{plan, revision}`
+- `PATCH /api/progress` with `{revision, topicId:"1.1.1", completed:true}` → saves one topic
+- `PATCH /api/progress` with `{revision, plan}` → saves personal content, settings, and progress
+- `PUT /api/progress` with `{revision, completedIds:["1.1.1",...]}` → replaces progress while retaining personal content and settings
+
+Writes return `{ok:true, plan, revision}`. Stale revisions return HTTP 409; reload before retrying. Full version-2 exports contain the entire plan. See [CHANGELOG.md](CHANGELOG.md) for migration details and manual test steps.
 
 ## Notes
 
 - This app is ready **for connecting to your own Supabase project**; no actual database has been provisioned or deployed on your behalf.
-- The topic curriculum is in `lib/curriculum.json` and can be edited directly.
+- The starting curriculum is in `lib/curriculum.json`. Saved personal checklists live in `account_checklists` and are edited through the dashboard.
 - The original HTML's exported progress (`{checked:[...]}`) can be imported under **Backup → Import JSON**.
 - The API validates Supabase access tokens server-side (`getUser(token)`), and database queries remain under the caller's JWT/RLS rules.
+
+## Verification
+
+Run `npm test` for checklist model tests. Run `npm run build && npm run test:api` for production compilation and API integration tests against a local Supabase HTTP substitute. Live Supabase RLS and browser checks are described in [CHANGELOG.md](CHANGELOG.md).
+
+## Missing account checklist table
+
+If the app reports that `public.account_checklists` is missing from the schema cache, open your configured Supabase project → **SQL Editor** and run the entire [account checklist migration](supabase/migrations/202610240001_account_checklists.sql). It creates the table and account-isolation policies, retains existing progress, and refreshes the API schema cache. Reload the app after the SQL succeeds. Running the complete `supabase/schema.sql` is also supported.
