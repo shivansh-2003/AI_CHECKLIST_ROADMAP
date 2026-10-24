@@ -1,0 +1,2653 @@
+[
+  {
+    "id": "1",
+    "name": "Agentic AI & Multi-Agent Systems",
+    "priority": "Maintain",
+    "groups": [
+      {
+        "id": "1.1",
+        "name": "Foundations of Agentic AI",
+        "items": [
+          {
+            "id": "1.1.1",
+            "name": "LLM applications vs AI agents vs autonomous systems"
+          },
+          {
+            "id": "1.1.2",
+            "name": "Agent components: model, tools, state, memory, environment"
+          },
+          {
+            "id": "1.1.3",
+            "name": "ReAct architecture"
+          },
+          {
+            "id": "1.1.4",
+            "name": "Plan-and-execute architecture"
+          },
+          {
+            "id": "1.1.5",
+            "name": "Reflection and iterative refinement"
+          },
+          {
+            "id": "1.1.6",
+            "name": "Deterministic workflows vs dynamic agents"
+          },
+          {
+            "id": "1.1.7",
+            "name": "Agent autonomy levels and execution boundaries"
+          }
+        ]
+      },
+      {
+        "id": "1.2",
+        "name": "Agent Orchestration with LangGraph",
+        "items": [
+          {
+            "id": "1.2.1",
+            "name": "StateGraph architecture"
+          },
+          {
+            "id": "1.2.2",
+            "name": "Nodes, edges and conditional routing"
+          },
+          {
+            "id": "1.2.3",
+            "name": "State schemas, reducers and updates"
+          },
+          {
+            "id": "1.2.4",
+            "name": "Message handling and conversation state"
+          },
+          {
+            "id": "1.2.5",
+            "name": "Subgraphs and reusable components"
+          },
+          {
+            "id": "1.2.6",
+            "name": "Interrupts and human-in-the-loop"
+          },
+          {
+            "id": "1.2.7",
+            "name": "Checkpointing and state persistence"
+          },
+          {
+            "id": "1.2.8",
+            "name": "Durable workflow execution"
+          },
+          {
+            "id": "1.2.9",
+            "name": "Streaming and asynchronous execution"
+          },
+          {
+            "id": "1.2.10",
+            "name": "Workflow recovery and resumption"
+          }
+        ]
+      },
+      {
+        "id": "1.3",
+        "name": "Multi-Agent Architectures",
+        "items": [
+          {
+            "id": "1.3.1",
+            "name": "Supervisor-worker architectures"
+          },
+          {
+            "id": "1.3.2",
+            "name": "Hierarchical agents"
+          },
+          {
+            "id": "1.3.3",
+            "name": "Peer-to-peer agent coordination"
+          },
+          {
+            "id": "1.3.4",
+            "name": "Agent handoffs and delegation"
+          },
+          {
+            "id": "1.3.5",
+            "name": "Parallel and sequential execution"
+          },
+          {
+            "id": "1.3.6",
+            "name": "Agent communication protocols"
+          },
+          {
+            "id": "1.3.7",
+            "name": "Shared state vs isolated agent state"
+          },
+          {
+            "id": "1.3.8",
+            "name": "Conflict resolution between agents"
+          },
+          {
+            "id": "1.3.9",
+            "name": "Avoiding unnecessary multi-agent complexity"
+          }
+        ]
+      },
+      {
+        "id": "1.4",
+        "name": "Agent Tools and Execution",
+        "items": [
+          {
+            "id": "1.4.1",
+            "name": "Function calling and tool schemas"
+          },
+          {
+            "id": "1.4.2",
+            "name": "Tool selection and routing"
+          },
+          {
+            "id": "1.4.3",
+            "name": "Tool execution validation"
+          },
+          {
+            "id": "1.4.4",
+            "name": "Tool result normalization"
+          },
+          {
+            "id": "1.4.5",
+            "name": "Tool failures and recovery"
+          },
+          {
+            "id": "1.4.6",
+            "name": "Long-running tool operations"
+          },
+          {
+            "id": "1.4.7",
+            "name": "Tool permission boundaries"
+          }
+        ]
+      },
+      {
+        "id": "1.5",
+        "name": "Agent Memory",
+        "items": [
+          {
+            "id": "1.5.1",
+            "name": "Working and conversation memory"
+          },
+          {
+            "id": "1.5.2",
+            "name": "Episodic memory"
+          },
+          {
+            "id": "1.5.3",
+            "name": "Semantic memory"
+          },
+          {
+            "id": "1.5.4",
+            "name": "Procedural memory"
+          },
+          {
+            "id": "1.5.5",
+            "name": "Long-term memory storage"
+          },
+          {
+            "id": "1.5.6",
+            "name": "Memory retrieval and relevance"
+          },
+          {
+            "id": "1.5.7",
+            "name": "Memory consolidation, updates and forgetting"
+          },
+          {
+            "id": "1.5.8",
+            "name": "Memory consistency and isolation"
+          }
+        ]
+      },
+      {
+        "id": "1.6",
+        "name": "Advanced Agent Engineering",
+        "items": [
+          {
+            "id": "1.6.1",
+            "name": "Agent loop management"
+          },
+          {
+            "id": "1.6.2",
+            "name": "Task planning and replanning"
+          },
+          {
+            "id": "1.6.3",
+            "name": "Context management across workflows"
+          },
+          {
+            "id": "1.6.4",
+            "name": "Agent scheduling and concurrency"
+          },
+          {
+            "id": "1.6.5",
+            "name": "Distributed agent execution"
+          },
+          {
+            "id": "1.6.6",
+            "name": "Human approval workflows"
+          },
+          {
+            "id": "1.6.7",
+            "name": "Agent-to-Agent (A2A) interoperability"
+          },
+          {
+            "id": "1.6.8",
+            "name": "Agent framework tradeoffs: LangGraph, ADK, CrewAI, Agno"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Model Context Protocol (MCP) & Enterprise Integrations",
+    "priority": "P0",
+    "groups": [
+      {
+        "id": "2.1",
+        "name": "MCP Fundamentals",
+        "items": [
+          {
+            "id": "2.1.1",
+            "name": "Why MCP exists"
+          },
+          {
+            "id": "2.1.2",
+            "name": "MCP architecture and ecosystem"
+          },
+          {
+            "id": "2.1.3",
+            "name": "MCP hosts, clients and servers"
+          },
+          {
+            "id": "2.1.4",
+            "name": "MCP lifecycle and initialization"
+          },
+          {
+            "id": "2.1.5",
+            "name": "Capability negotiation"
+          },
+          {
+            "id": "2.1.6",
+            "name": "Protocol versioning and compatibility"
+          }
+        ]
+      },
+      {
+        "id": "2.2",
+        "name": "MCP Core Primitives",
+        "items": [
+          {
+            "id": "2.2.1",
+            "name": "Tools"
+          },
+          {
+            "id": "2.2.2",
+            "name": "Resources"
+          },
+          {
+            "id": "2.2.3",
+            "name": "Resource templates"
+          },
+          {
+            "id": "2.2.4",
+            "name": "Prompts"
+          },
+          {
+            "id": "2.2.5",
+            "name": "Tool schemas and structured results"
+          },
+          {
+            "id": "2.2.6",
+            "name": "Notifications and progress reporting"
+          },
+          {
+            "id": "2.2.7",
+            "name": "Error responses and protocol semantics"
+          }
+        ]
+      },
+      {
+        "id": "2.3",
+        "name": "MCP Communication Architecture",
+        "items": [
+          {
+            "id": "2.3.1",
+            "name": "JSON-RPC fundamentals"
+          },
+          {
+            "id": "2.3.2",
+            "name": "Standard input/output transport"
+          },
+          {
+            "id": "2.3.3",
+            "name": "Streamable HTTP transport"
+          },
+          {
+            "id": "2.3.4",
+            "name": "Sessions and connection management"
+          },
+          {
+            "id": "2.3.5",
+            "name": "Request and response correlation"
+          },
+          {
+            "id": "2.3.6",
+            "name": "Connection failure and recovery"
+          },
+          {
+            "id": "2.3.7",
+            "name": "Streaming and long-running operations"
+          }
+        ]
+      },
+      {
+        "id": "2.4",
+        "name": "MCP Server Engineering",
+        "items": [
+          {
+            "id": "2.4.1",
+            "name": "Building servers with Python"
+          },
+          {
+            "id": "2.4.2",
+            "name": "FastMCP fundamentals"
+          },
+          {
+            "id": "2.4.3",
+            "name": "Tool registration and validation"
+          },
+          {
+            "id": "2.4.4",
+            "name": "Async tool execution"
+          },
+          {
+            "id": "2.4.5",
+            "name": "Handling external API errors"
+          },
+          {
+            "id": "2.4.6",
+            "name": "Server configuration and deployment"
+          },
+          {
+            "id": "2.4.7",
+            "name": "Logging and observability"
+          }
+        ]
+      },
+      {
+        "id": "2.5",
+        "name": "MCP Client Engineering",
+        "items": [
+          {
+            "id": "2.5.1",
+            "name": "Client initialization"
+          },
+          {
+            "id": "2.5.2",
+            "name": "Discovering server capabilities"
+          },
+          {
+            "id": "2.5.3",
+            "name": "Executing tools"
+          },
+          {
+            "id": "2.5.4",
+            "name": "Managing multiple MCP servers"
+          },
+          {
+            "id": "2.5.5",
+            "name": "Connection pooling and lifecycle"
+          },
+          {
+            "id": "2.5.6",
+            "name": "MCP clients within LangGraph agents"
+          }
+        ]
+      },
+      {
+        "id": "2.6",
+        "name": "Authentication and Security",
+        "items": [
+          {
+            "id": "2.6.1",
+            "name": "OAuth 2.0 fundamentals"
+          },
+          {
+            "id": "2.6.2",
+            "name": "Authorization flows for remote MCP"
+          },
+          {
+            "id": "2.6.3",
+            "name": "Access tokens and scopes"
+          },
+          {
+            "id": "2.6.4",
+            "name": "Token refresh and expiration"
+          },
+          {
+            "id": "2.6.5",
+            "name": "User identity propagation"
+          },
+          {
+            "id": "2.6.6",
+            "name": "Least-privilege tool access"
+          },
+          {
+            "id": "2.6.7",
+            "name": "MCP authorization vulnerabilities"
+          },
+          {
+            "id": "2.6.8",
+            "name": "Tool poisoning and prompt injection"
+          }
+        ]
+      },
+      {
+        "id": "2.7",
+        "name": "Enterprise MCP Integrations",
+        "items": [
+          {
+            "id": "2.7.1",
+            "name": "REST and GraphQL API integration"
+          },
+          {
+            "id": "2.7.2",
+            "name": "Database access"
+          },
+          {
+            "id": "2.7.3",
+            "name": "GitHub and developer tools"
+          },
+          {
+            "id": "2.7.4",
+            "name": "Cloud service integrations"
+          },
+          {
+            "id": "2.7.5",
+            "name": "Enterprise identity and permissions"
+          },
+          {
+            "id": "2.7.6",
+            "name": "API quotas, rate limits and retries"
+          },
+          {
+            "id": "2.7.7",
+            "name": "Auditing and integration reliability"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "RAG & Context Engineering",
+    "priority": "Maintain",
+    "groups": [
+      {
+        "id": "3.1",
+        "name": "RAG Fundamentals",
+        "items": [
+          {
+            "id": "3.1.1",
+            "name": "RAG architecture and components"
+          },
+          {
+            "id": "3.1.2",
+            "name": "Parametric vs external knowledge"
+          },
+          {
+            "id": "3.1.3",
+            "name": "Retrieval and generation pipelines"
+          },
+          {
+            "id": "3.1.4",
+            "name": "RAG limitations and failure modes"
+          }
+        ]
+      },
+      {
+        "id": "3.2",
+        "name": "Document Processing and Ingestion",
+        "items": [
+          {
+            "id": "3.2.1",
+            "name": "PDF, HTML and document extraction"
+          },
+          {
+            "id": "3.2.2",
+            "name": "Text normalization and metadata"
+          },
+          {
+            "id": "3.2.3",
+            "name": "Fixed-size and recursive chunking"
+          },
+          {
+            "id": "3.2.4",
+            "name": "Semantic and structure-aware chunking"
+          },
+          {
+            "id": "3.2.5",
+            "name": "Parent-child document strategies"
+          },
+          {
+            "id": "3.2.6",
+            "name": "Incremental ingestion and document versioning"
+          }
+        ]
+      },
+      {
+        "id": "3.3",
+        "name": "Embeddings and Vector Search",
+        "items": [
+          {
+            "id": "3.3.1",
+            "name": "Embedding model selection"
+          },
+          {
+            "id": "3.3.2",
+            "name": "Similarity measures"
+          },
+          {
+            "id": "3.3.3",
+            "name": "Dense vector retrieval"
+          },
+          {
+            "id": "3.3.4",
+            "name": "Sparse retrieval and BM25"
+          },
+          {
+            "id": "3.3.5",
+            "name": "FAISS indexing concepts"
+          },
+          {
+            "id": "3.3.6",
+            "name": "Chroma, Pinecone and vector stores"
+          },
+          {
+            "id": "3.3.7",
+            "name": "Approximate nearest-neighbor search"
+          }
+        ]
+      },
+      {
+        "id": "3.4",
+        "name": "Advanced Retrieval",
+        "items": [
+          {
+            "id": "3.4.1",
+            "name": "Hybrid search"
+          },
+          {
+            "id": "3.4.2",
+            "name": "Reciprocal rank fusion"
+          },
+          {
+            "id": "3.4.3",
+            "name": "Cross-encoder reranking"
+          },
+          {
+            "id": "3.4.4",
+            "name": "Query rewriting and decomposition"
+          },
+          {
+            "id": "3.4.5",
+            "name": "Multi-query retrieval"
+          },
+          {
+            "id": "3.4.6",
+            "name": "Metadata filtering"
+          },
+          {
+            "id": "3.4.7",
+            "name": "Multi-hop retrieval"
+          },
+          {
+            "id": "3.4.8",
+            "name": "GraphRAG and knowledge graph retrieval"
+          }
+        ]
+      },
+      {
+        "id": "3.5",
+        "name": "Context Engineering",
+        "items": [
+          {
+            "id": "3.5.1",
+            "name": "Context window management"
+          },
+          {
+            "id": "3.5.2",
+            "name": "Context compression"
+          },
+          {
+            "id": "3.5.3",
+            "name": "Context ordering and prioritization"
+          },
+          {
+            "id": "3.5.4",
+            "name": "Conversation context management"
+          },
+          {
+            "id": "3.5.5",
+            "name": "Long-context vs retrieval tradeoffs"
+          },
+          {
+            "id": "3.5.6",
+            "name": "Evidence grounding and citations"
+          }
+        ]
+      },
+      {
+        "id": "3.6",
+        "name": "Agentic RAG",
+        "items": [
+          {
+            "id": "3.6.1",
+            "name": "Agent-driven retrieval"
+          },
+          {
+            "id": "3.6.2",
+            "name": "Retrieval tool selection"
+          },
+          {
+            "id": "3.6.3",
+            "name": "Adaptive and corrective retrieval"
+          },
+          {
+            "id": "3.6.4",
+            "name": "Iterative retrieval"
+          },
+          {
+            "id": "3.6.5",
+            "name": "Multi-agent research pipelines"
+          }
+        ]
+      },
+      {
+        "id": "3.7",
+        "name": "RAG Evaluation",
+        "items": [
+          {
+            "id": "3.7.1",
+            "name": "Retrieval precision and recall"
+          },
+          {
+            "id": "3.7.2",
+            "name": "Recall@K and MRR"
+          },
+          {
+            "id": "3.7.3",
+            "name": "nDCG"
+          },
+          {
+            "id": "3.7.4",
+            "name": "Faithfulness and groundedness"
+          },
+          {
+            "id": "3.7.5",
+            "name": "Answer relevance"
+          },
+          {
+            "id": "3.7.6",
+            "name": "RAG failure analysis"
+          },
+          {
+            "id": "3.7.7",
+            "name": "Dataset creation and regression evaluation"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "LLM Fundamentals & GenAI Engineering",
+    "priority": "Maintain",
+    "groups": [
+      {
+        "id": "4.1",
+        "name": "Transformer Fundamentals",
+        "items": [
+          {
+            "id": "4.1.1",
+            "name": "Tokenization and embeddings"
+          },
+          {
+            "id": "4.1.2",
+            "name": "Attention mechanisms"
+          },
+          {
+            "id": "4.1.3",
+            "name": "Self-attention and causal attention"
+          },
+          {
+            "id": "4.1.4",
+            "name": "Multi-head attention"
+          },
+          {
+            "id": "4.1.5",
+            "name": "Positional encoding and RoPE"
+          },
+          {
+            "id": "4.1.6",
+            "name": "Feed-forward layers and normalization"
+          },
+          {
+            "id": "4.1.7",
+            "name": "Encoder-decoder vs decoder-only models"
+          }
+        ]
+      },
+      {
+        "id": "4.2",
+        "name": "LLM Architecture",
+        "items": [
+          {
+            "id": "4.2.1",
+            "name": "Autoregressive generation"
+          },
+          {
+            "id": "4.2.2",
+            "name": "Model parameters and scaling"
+          },
+          {
+            "id": "4.2.3",
+            "name": "Dense vs mixture-of-experts models"
+          },
+          {
+            "id": "4.2.4",
+            "name": "Context windows and limitations"
+          },
+          {
+            "id": "4.2.5",
+            "name": "Instruction-tuned models"
+          },
+          {
+            "id": "4.2.6",
+            "name": "Open-weight vs hosted models"
+          }
+        ]
+      },
+      {
+        "id": "4.3",
+        "name": "LLM Application Engineering",
+        "items": [
+          {
+            "id": "4.3.1",
+            "name": "Hosted model APIs"
+          },
+          {
+            "id": "4.3.2",
+            "name": "Chat-completion and response interfaces"
+          },
+          {
+            "id": "4.3.3",
+            "name": "Structured generation"
+          },
+          {
+            "id": "4.3.4",
+            "name": "JSON schema validation"
+          },
+          {
+            "id": "4.3.5",
+            "name": "Function and tool calling"
+          },
+          {
+            "id": "4.3.6",
+            "name": "Token streaming"
+          },
+          {
+            "id": "4.3.7",
+            "name": "Multimodal inputs"
+          },
+          {
+            "id": "4.3.8",
+            "name": "Model fallback and provider abstraction"
+          }
+        ]
+      },
+      {
+        "id": "4.4",
+        "name": "Prompt and Context Management",
+        "items": [
+          {
+            "id": "4.4.1",
+            "name": "System and developer instructions"
+          },
+          {
+            "id": "4.4.2",
+            "name": "Zero-shot and few-shot prompting"
+          },
+          {
+            "id": "4.4.3",
+            "name": "Prompt templates"
+          },
+          {
+            "id": "4.4.4",
+            "name": "Output constraints"
+          },
+          {
+            "id": "4.4.5",
+            "name": "Long-context management"
+          },
+          {
+            "id": "4.4.6",
+            "name": "Prompt versioning"
+          }
+        ]
+      },
+      {
+        "id": "4.5",
+        "name": "Model Adaptation",
+        "items": [
+          {
+            "id": "4.5.1",
+            "name": "Prompting vs RAG vs fine-tuning"
+          },
+          {
+            "id": "4.5.2",
+            "name": "Supervised fine-tuning concepts"
+          },
+          {
+            "id": "4.5.3",
+            "name": "LoRA and QLoRA concepts"
+          },
+          {
+            "id": "4.5.4",
+            "name": "PEFT fundamentals"
+          },
+          {
+            "id": "4.5.5",
+            "name": "Model selection and evaluation"
+          },
+          {
+            "id": "4.5.6",
+            "name": "Fine-tuning tradeoffs"
+          }
+        ]
+      },
+      {
+        "id": "4.6",
+        "name": "GenAI Application Patterns",
+        "items": [
+          {
+            "id": "4.6.1",
+            "name": "Chat and conversational applications"
+          },
+          {
+            "id": "4.6.2",
+            "name": "Document intelligence"
+          },
+          {
+            "id": "4.6.3",
+            "name": "Workflow automation"
+          },
+          {
+            "id": "4.6.4",
+            "name": "AI assistants and copilots"
+          },
+          {
+            "id": "4.6.5",
+            "name": "Tool-augmented generation"
+          },
+          {
+            "id": "4.6.6",
+            "name": "Multi-model and multimodal applications"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Software Engineering & Advanced Python",
+    "priority": "P1",
+    "groups": [
+      {
+        "id": "5.1",
+        "name": "Advanced Python",
+        "items": [
+          {
+            "id": "5.1.1",
+            "name": "Object-oriented programming"
+          },
+          {
+            "id": "5.1.2",
+            "name": "Dataclasses and Pydantic"
+          },
+          {
+            "id": "5.1.3",
+            "name": "Type hints and generics"
+          },
+          {
+            "id": "5.1.4",
+            "name": "Decorators and generators"
+          },
+          {
+            "id": "5.1.5",
+            "name": "Context managers"
+          },
+          {
+            "id": "5.1.6",
+            "name": "Protocols and abstract base classes"
+          },
+          {
+            "id": "5.1.7",
+            "name": "Exception handling"
+          }
+        ]
+      },
+      {
+        "id": "5.2",
+        "name": "Concurrency and Async Programming",
+        "items": [
+          {
+            "id": "5.2.1",
+            "name": "Concurrency vs parallelism"
+          },
+          {
+            "id": "5.2.2",
+            "name": "Python event loop"
+          },
+          {
+            "id": "5.2.3",
+            "name": "AsyncIO and coroutines"
+          },
+          {
+            "id": "5.2.4",
+            "name": "Tasks and task groups"
+          },
+          {
+            "id": "5.2.5",
+            "name": "Futures and cancellation"
+          },
+          {
+            "id": "5.2.6",
+            "name": "Threading and multiprocessing"
+          },
+          {
+            "id": "5.2.7",
+            "name": "Locks, semaphores and race conditions"
+          },
+          {
+            "id": "5.2.8",
+            "name": "Async resource management"
+          },
+          {
+            "id": "5.2.9",
+            "name": "Backpressure and concurrency limits"
+          }
+        ]
+      },
+      {
+        "id": "5.3",
+        "name": "Backend API Engineering",
+        "items": [
+          {
+            "id": "5.3.1",
+            "name": "HTTP and REST"
+          },
+          {
+            "id": "5.3.2",
+            "name": "FastAPI architecture"
+          },
+          {
+            "id": "5.3.3",
+            "name": "Dependency injection"
+          },
+          {
+            "id": "5.3.4",
+            "name": "Request and response validation"
+          },
+          {
+            "id": "5.3.5",
+            "name": "Middleware"
+          },
+          {
+            "id": "5.3.6",
+            "name": "Authentication and authorization"
+          },
+          {
+            "id": "5.3.7",
+            "name": "WebSockets and Server-Sent Events"
+          },
+          {
+            "id": "5.3.8",
+            "name": "Background execution"
+          },
+          {
+            "id": "5.3.9",
+            "name": "API pagination and versioning"
+          },
+          {
+            "id": "5.3.10",
+            "name": "Rate limiting and timeouts"
+          }
+        ]
+      },
+      {
+        "id": "5.4",
+        "name": "Software Architecture and Design",
+        "items": [
+          {
+            "id": "5.4.1",
+            "name": "SOLID principles"
+          },
+          {
+            "id": "5.4.2",
+            "name": "Separation of concerns"
+          },
+          {
+            "id": "5.4.3",
+            "name": "Dependency inversion"
+          },
+          {
+            "id": "5.4.4",
+            "name": "Repository and service patterns"
+          },
+          {
+            "id": "5.4.5",
+            "name": "Clean and hexagonal architecture"
+          },
+          {
+            "id": "5.4.6",
+            "name": "Adapter and factory patterns"
+          },
+          {
+            "id": "5.4.7",
+            "name": "Modular monoliths vs microservices"
+          },
+          {
+            "id": "5.4.8",
+            "name": "Configuration and secrets handling"
+          }
+        ]
+      },
+      {
+        "id": "5.5",
+        "name": "Engineering Quality and Performance",
+        "items": [
+          {
+            "id": "5.5.1",
+            "name": "Structured logging"
+          },
+          {
+            "id": "5.5.2",
+            "name": "Code readability and maintainability"
+          },
+          {
+            "id": "5.5.3",
+            "name": "Python profiling"
+          },
+          {
+            "id": "5.5.4",
+            "name": "Memory leaks and resource cleanup"
+          },
+          {
+            "id": "5.5.5",
+            "name": "API debugging"
+          },
+          {
+            "id": "5.5.6",
+            "name": "Essential unit and integration tests"
+          },
+          {
+            "id": "5.5.7",
+            "name": "Code review practices"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "name": "System Design & Distributed Systems",
+    "priority": "P0",
+    "groups": [
+      {
+        "id": "6.1",
+        "name": "System Design Fundamentals",
+        "items": [
+          {
+            "id": "6.1.1",
+            "name": "Functional requirements"
+          },
+          {
+            "id": "6.1.2",
+            "name": "Non-functional requirements"
+          },
+          {
+            "id": "6.1.3",
+            "name": "Latency, throughput, availability and durability"
+          },
+          {
+            "id": "6.1.4",
+            "name": "Capacity estimation"
+          },
+          {
+            "id": "6.1.5",
+            "name": "Component boundaries"
+          },
+          {
+            "id": "6.1.6",
+            "name": "High-level vs low-level design"
+          },
+          {
+            "id": "6.1.7",
+            "name": "Architecture tradeoff analysis"
+          }
+        ]
+      },
+      {
+        "id": "6.2",
+        "name": "Core System Components",
+        "items": [
+          {
+            "id": "6.2.1",
+            "name": "Clients and application servers"
+          },
+          {
+            "id": "6.2.2",
+            "name": "Reverse proxies and API gateways"
+          },
+          {
+            "id": "6.2.3",
+            "name": "Load balancers"
+          },
+          {
+            "id": "6.2.4",
+            "name": "Databases and caches"
+          },
+          {
+            "id": "6.2.5",
+            "name": "Message queues"
+          },
+          {
+            "id": "6.2.6",
+            "name": "Worker processes"
+          },
+          {
+            "id": "6.2.7",
+            "name": "Object storage"
+          },
+          {
+            "id": "6.2.8",
+            "name": "Schedulers"
+          }
+        ]
+      },
+      {
+        "id": "6.3",
+        "name": "Scalability",
+        "items": [
+          {
+            "id": "6.3.1",
+            "name": "Vertical and horizontal scaling"
+          },
+          {
+            "id": "6.3.2",
+            "name": "Stateless services"
+          },
+          {
+            "id": "6.3.3",
+            "name": "Stateful services"
+          },
+          {
+            "id": "6.3.4",
+            "name": "Load distribution"
+          },
+          {
+            "id": "6.3.5",
+            "name": "Autoscaling fundamentals"
+          },
+          {
+            "id": "6.3.6",
+            "name": "Hotspots and bottleneck identification"
+          }
+        ]
+      },
+      {
+        "id": "6.4",
+        "name": "Distributed Systems Fundamentals",
+        "items": [
+          {
+            "id": "6.4.1",
+            "name": "Distributed system characteristics"
+          },
+          {
+            "id": "6.4.2",
+            "name": "Network failures and partial failures"
+          },
+          {
+            "id": "6.4.3",
+            "name": "CAP theorem and its limitations"
+          },
+          {
+            "id": "6.4.4",
+            "name": "Strong vs eventual consistency"
+          },
+          {
+            "id": "6.4.5",
+            "name": "Availability and partition tolerance"
+          },
+          {
+            "id": "6.4.6",
+            "name": "Distributed transactions"
+          },
+          {
+            "id": "6.4.7",
+            "name": "Replication"
+          },
+          {
+            "id": "6.4.8",
+            "name": "Consensus concepts"
+          }
+        ]
+      },
+      {
+        "id": "6.5",
+        "name": "Messaging and Event-Driven Architecture",
+        "items": [
+          {
+            "id": "6.5.1",
+            "name": "Synchronous vs asynchronous communication"
+          },
+          {
+            "id": "6.5.2",
+            "name": "Message queues vs event streams"
+          },
+          {
+            "id": "6.5.3",
+            "name": "Pub/sub"
+          },
+          {
+            "id": "6.5.4",
+            "name": "Producer-consumer patterns"
+          },
+          {
+            "id": "6.5.5",
+            "name": "Delivery guarantees"
+          },
+          {
+            "id": "6.5.6",
+            "name": "Idempotency and deduplication"
+          },
+          {
+            "id": "6.5.7",
+            "name": "Dead-letter queues"
+          },
+          {
+            "id": "6.5.8",
+            "name": "Event ordering"
+          },
+          {
+            "id": "6.5.9",
+            "name": "Retry and backoff strategies"
+          }
+        ]
+      },
+      {
+        "id": "6.6",
+        "name": "Distributed Workflow Design",
+        "items": [
+          {
+            "id": "6.6.1",
+            "name": "Workflow orchestration"
+          },
+          {
+            "id": "6.6.2",
+            "name": "Choreography vs orchestration"
+          },
+          {
+            "id": "6.6.3",
+            "name": "Saga pattern"
+          },
+          {
+            "id": "6.6.4",
+            "name": "State machines"
+          },
+          {
+            "id": "6.6.5",
+            "name": "Long-running transactions"
+          },
+          {
+            "id": "6.6.6",
+            "name": "Workflow checkpoints"
+          },
+          {
+            "id": "6.6.7",
+            "name": "Cancellation and compensation"
+          },
+          {
+            "id": "6.6.8",
+            "name": "Scheduling and delayed execution"
+          }
+        ]
+      },
+      {
+        "id": "6.7",
+        "name": "Caching and Performance",
+        "items": [
+          {
+            "id": "6.7.1",
+            "name": "Cache-aside"
+          },
+          {
+            "id": "6.7.2",
+            "name": "Write-through and write-behind"
+          },
+          {
+            "id": "6.7.3",
+            "name": "Cache invalidation"
+          },
+          {
+            "id": "6.7.4",
+            "name": "TTL and eviction strategies"
+          },
+          {
+            "id": "6.7.5",
+            "name": "Distributed caching"
+          },
+          {
+            "id": "6.7.6",
+            "name": "Rate limiting"
+          },
+          {
+            "id": "6.7.7",
+            "name": "Backpressure"
+          },
+          {
+            "id": "6.7.8",
+            "name": "Circuit breakers"
+          }
+        ]
+      },
+      {
+        "id": "6.8",
+        "name": "AI System Design Case Studies",
+        "items": [
+          {
+            "id": "6.8.1",
+            "name": "Design an enterprise RAG service"
+          },
+          {
+            "id": "6.8.2",
+            "name": "Design a multi-agent orchestration backend"
+          },
+          {
+            "id": "6.8.3",
+            "name": "Design a long-running agent scheduler"
+          },
+          {
+            "id": "6.8.4",
+            "name": "Design an MCP gateway"
+          },
+          {
+            "id": "6.8.5",
+            "name": "Design an AI browser automation platform"
+          },
+          {
+            "id": "6.8.6",
+            "name": "Design an agent memory service"
+          },
+          {
+            "id": "6.8.7",
+            "name": "Design a model-routing gateway"
+          },
+          {
+            "id": "6.8.8",
+            "name": "Design an evaluation and tracing platform"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Databases & Data Engineering",
+    "priority": "P0",
+    "groups": [
+      {
+        "id": "7.1",
+        "name": "Relational Database Fundamentals",
+        "items": [
+          {
+            "id": "7.1.1",
+            "name": "Tables, rows, keys and constraints"
+          },
+          {
+            "id": "7.1.2",
+            "name": "Relationships and normalization"
+          },
+          {
+            "id": "7.1.3",
+            "name": "Joins, subqueries and CTEs"
+          },
+          {
+            "id": "7.1.4",
+            "name": "Transactions and ACID"
+          },
+          {
+            "id": "7.1.5",
+            "name": "Isolation levels"
+          },
+          {
+            "id": "7.1.6",
+            "name": "Locks and concurrency"
+          }
+        ]
+      },
+      {
+        "id": "7.2",
+        "name": "PostgreSQL Engineering",
+        "items": [
+          {
+            "id": "7.2.1",
+            "name": "Schema design"
+          },
+          {
+            "id": "7.2.2",
+            "name": "Index fundamentals"
+          },
+          {
+            "id": "7.2.3",
+            "name": "Query execution plans"
+          },
+          {
+            "id": "7.2.4",
+            "name": "Query optimization"
+          },
+          {
+            "id": "7.2.5",
+            "name": "Connection pooling"
+          },
+          {
+            "id": "7.2.6",
+            "name": "Database migrations"
+          },
+          {
+            "id": "7.2.7",
+            "name": "Async PostgreSQL access"
+          },
+          {
+            "id": "7.2.8",
+            "name": "JSONB and semi-structured data"
+          },
+          {
+            "id": "7.2.9",
+            "name": "Backup and recovery fundamentals"
+          }
+        ]
+      },
+      {
+        "id": "7.3",
+        "name": "NoSQL Databases",
+        "items": [
+          {
+            "id": "7.3.1",
+            "name": "Relational vs non-relational databases"
+          },
+          {
+            "id": "7.3.2",
+            "name": "Document data modeling"
+          },
+          {
+            "id": "7.3.3",
+            "name": "MongoDB fundamentals"
+          },
+          {
+            "id": "7.3.4",
+            "name": "Consistency tradeoffs"
+          },
+          {
+            "id": "7.3.5",
+            "name": "NoSQL access patterns"
+          }
+        ]
+      },
+      {
+        "id": "7.4",
+        "name": "Redis",
+        "items": [
+          {
+            "id": "7.4.1",
+            "name": "Redis data structures"
+          },
+          {
+            "id": "7.4.2",
+            "name": "Caching and TTLs"
+          },
+          {
+            "id": "7.4.3",
+            "name": "Atomic operations"
+          },
+          {
+            "id": "7.4.4",
+            "name": "Distributed locking"
+          },
+          {
+            "id": "7.4.5",
+            "name": "Redis Streams"
+          },
+          {
+            "id": "7.4.6",
+            "name": "Redis as a job-queue component"
+          },
+          {
+            "id": "7.4.7",
+            "name": "Persistence and durability tradeoffs"
+          }
+        ]
+      },
+      {
+        "id": "7.5",
+        "name": "Vector Database Engineering",
+        "items": [
+          {
+            "id": "7.5.1",
+            "name": "Vector storage"
+          },
+          {
+            "id": "7.5.2",
+            "name": "Vector indexes"
+          },
+          {
+            "id": "7.5.3",
+            "name": "Metadata filters"
+          },
+          {
+            "id": "7.5.4",
+            "name": "Hybrid retrieval implementation"
+          },
+          {
+            "id": "7.5.5",
+            "name": "Multi-tenant isolation"
+          },
+          {
+            "id": "7.5.6",
+            "name": "Index maintenance and updates"
+          }
+        ]
+      },
+      {
+        "id": "7.6",
+        "name": "Data Engineering for AI",
+        "items": [
+          {
+            "id": "7.6.1",
+            "name": "Data ingestion pipelines"
+          },
+          {
+            "id": "7.6.2",
+            "name": "Batch vs streaming processing"
+          },
+          {
+            "id": "7.6.3",
+            "name": "ETL and ELT concepts"
+          },
+          {
+            "id": "7.6.4",
+            "name": "Data validation"
+          },
+          {
+            "id": "7.6.5",
+            "name": "Data versioning and lineage"
+          },
+          {
+            "id": "7.6.6",
+            "name": "Database-driven agent memory"
+          },
+          {
+            "id": "7.6.7",
+            "name": "Workflow state persistence"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Cloud, DevOps & Infrastructure",
+    "priority": "P0",
+    "groups": [
+      {
+        "id": "8.1",
+        "name": "Linux and Networking",
+        "items": [
+          {
+            "id": "8.1.1",
+            "name": "Linux file systems and permissions"
+          },
+          {
+            "id": "8.1.2",
+            "name": "Shell commands and scripting"
+          },
+          {
+            "id": "8.1.3",
+            "name": "Processes and signals"
+          },
+          {
+            "id": "8.1.4",
+            "name": "Environment variables"
+          },
+          {
+            "id": "8.1.5",
+            "name": "TCP/IP fundamentals"
+          },
+          {
+            "id": "8.1.6",
+            "name": "DNS and HTTP/HTTPS"
+          },
+          {
+            "id": "8.1.7",
+            "name": "Ports, sockets and firewalls"
+          },
+          {
+            "id": "8.1.8",
+            "name": "TLS fundamentals"
+          }
+        ]
+      },
+      {
+        "id": "8.2",
+        "name": "Docker",
+        "items": [
+          {
+            "id": "8.2.1",
+            "name": "Containers vs virtual machines"
+          },
+          {
+            "id": "8.2.2",
+            "name": "Images, layers and registries"
+          },
+          {
+            "id": "8.2.3",
+            "name": "Dockerfile design"
+          },
+          {
+            "id": "8.2.4",
+            "name": "Multi-stage builds"
+          },
+          {
+            "id": "8.2.5",
+            "name": "Volumes and bind mounts"
+          },
+          {
+            "id": "8.2.6",
+            "name": "Container networking"
+          },
+          {
+            "id": "8.2.7",
+            "name": "Docker Compose"
+          },
+          {
+            "id": "8.2.8",
+            "name": "Health checks"
+          },
+          {
+            "id": "8.2.9",
+            "name": "Container logs and resource limits"
+          },
+          {
+            "id": "8.2.10",
+            "name": "Container security fundamentals"
+          }
+        ]
+      },
+      {
+        "id": "8.3",
+        "name": "AWS Fundamentals",
+        "items": [
+          {
+            "id": "8.3.1",
+            "name": "AWS global infrastructure"
+          },
+          {
+            "id": "8.3.2",
+            "name": "IAM roles and policies"
+          },
+          {
+            "id": "8.3.3",
+            "name": "EC2"
+          },
+          {
+            "id": "8.3.4",
+            "name": "S3"
+          },
+          {
+            "id": "8.3.5",
+            "name": "VPC fundamentals"
+          },
+          {
+            "id": "8.3.6",
+            "name": "Security groups"
+          },
+          {
+            "id": "8.3.7",
+            "name": "Load balancers"
+          },
+          {
+            "id": "8.3.8",
+            "name": "CloudWatch"
+          },
+          {
+            "id": "8.3.9",
+            "name": "Lambda"
+          },
+          {
+            "id": "8.3.10",
+            "name": "ECS and Fargate fundamentals"
+          }
+        ]
+      },
+      {
+        "id": "8.4",
+        "name": "Deployment Engineering",
+        "items": [
+          {
+            "id": "8.4.1",
+            "name": "Application packaging"
+          },
+          {
+            "id": "8.4.2",
+            "name": "Process managers"
+          },
+          {
+            "id": "8.4.3",
+            "name": "Reverse proxies"
+          },
+          {
+            "id": "8.4.4",
+            "name": "Environment configuration"
+          },
+          {
+            "id": "8.4.5",
+            "name": "Secrets management"
+          },
+          {
+            "id": "8.4.6",
+            "name": "Database deployment"
+          },
+          {
+            "id": "8.4.7",
+            "name": "Deploying FastAPI services"
+          },
+          {
+            "id": "8.4.8",
+            "name": "Worker deployment"
+          },
+          {
+            "id": "8.4.9",
+            "name": "Rolling deployments and rollbacks"
+          }
+        ]
+      },
+      {
+        "id": "8.5",
+        "name": "CI/CD",
+        "items": [
+          {
+            "id": "8.5.1",
+            "name": "Continuous integration"
+          },
+          {
+            "id": "8.5.2",
+            "name": "Continuous deployment"
+          },
+          {
+            "id": "8.5.3",
+            "name": "GitHub Actions"
+          },
+          {
+            "id": "8.5.4",
+            "name": "Build pipelines"
+          },
+          {
+            "id": "8.5.5",
+            "name": "Container image publishing"
+          },
+          {
+            "id": "8.5.6",
+            "name": "Deployment pipelines"
+          },
+          {
+            "id": "8.5.7",
+            "name": "Environment separation"
+          },
+          {
+            "id": "8.5.8",
+            "name": "Release versioning and rollback"
+          }
+        ]
+      },
+      {
+        "id": "8.6",
+        "name": "Kubernetes Fundamentals",
+        "items": [
+          {
+            "id": "8.6.1",
+            "name": "Kubernetes architecture"
+          },
+          {
+            "id": "8.6.2",
+            "name": "Pods"
+          },
+          {
+            "id": "8.6.3",
+            "name": "Deployments"
+          },
+          {
+            "id": "8.6.4",
+            "name": "Services"
+          },
+          {
+            "id": "8.6.5",
+            "name": "ConfigMaps and Secrets"
+          },
+          {
+            "id": "8.6.6",
+            "name": "Ingress"
+          },
+          {
+            "id": "8.6.7",
+            "name": "Horizontal Pod Autoscaler"
+          },
+          {
+            "id": "8.6.8",
+            "name": "Resource requests and limits"
+          }
+        ]
+      },
+      {
+        "id": "8.7",
+        "name": "AI Infrastructure",
+        "items": [
+          {
+            "id": "8.7.1",
+            "name": "API deployment patterns"
+          },
+          {
+            "id": "8.7.2",
+            "name": "Model-serving deployment patterns"
+          },
+          {
+            "id": "8.7.3",
+            "name": "GPU vs CPU workloads"
+          },
+          {
+            "id": "8.7.4",
+            "name": "Background agent workers"
+          },
+          {
+            "id": "8.7.5",
+            "name": "Agent worker scaling"
+          },
+          {
+            "id": "8.7.6",
+            "name": "Queue-based workload processing"
+          },
+          {
+            "id": "8.7.7",
+            "name": "Observability infrastructure"
+          },
+          {
+            "id": "8.7.8",
+            "name": "Cost management"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Production AI & AgentOps",
+    "priority": "P0",
+    "groups": [
+      {
+        "id": "9.1",
+        "name": "Production AI Fundamentals",
+        "items": [
+          {
+            "id": "9.1.1",
+            "name": "AI prototypes vs production systems"
+          },
+          {
+            "id": "9.1.2",
+            "name": "Reliability requirements"
+          },
+          {
+            "id": "9.1.3",
+            "name": "Deterministic vs probabilistic failures"
+          },
+          {
+            "id": "9.1.4",
+            "name": "Operational readiness"
+          },
+          {
+            "id": "9.1.5",
+            "name": "AI application lifecycle"
+          }
+        ]
+      },
+      {
+        "id": "9.2",
+        "name": "Observability",
+        "items": [
+          {
+            "id": "9.2.1",
+            "name": "Structured logging"
+          },
+          {
+            "id": "9.2.2",
+            "name": "Metrics"
+          },
+          {
+            "id": "9.2.3",
+            "name": "Distributed tracing"
+          },
+          {
+            "id": "9.2.4",
+            "name": "OpenTelemetry fundamentals"
+          },
+          {
+            "id": "9.2.5",
+            "name": "LangSmith tracing"
+          },
+          {
+            "id": "9.2.6",
+            "name": "Trace correlation across agents and tools"
+          },
+          {
+            "id": "9.2.7",
+            "name": "Dashboards and alerts"
+          }
+        ]
+      },
+      {
+        "id": "9.3",
+        "name": "Agent Evaluation",
+        "items": [
+          {
+            "id": "9.3.1",
+            "name": "Evaluation strategy"
+          },
+          {
+            "id": "9.3.2",
+            "name": "Task-success metrics"
+          },
+          {
+            "id": "9.3.3",
+            "name": "Tool selection accuracy"
+          },
+          {
+            "id": "9.3.4",
+            "name": "Tool execution correctness"
+          },
+          {
+            "id": "9.3.5",
+            "name": "Multi-step workflow evaluation"
+          },
+          {
+            "id": "9.3.6",
+            "name": "LLM-as-judge"
+          },
+          {
+            "id": "9.3.7",
+            "name": "Human evaluation"
+          },
+          {
+            "id": "9.3.8",
+            "name": "Offline vs online evaluation"
+          },
+          {
+            "id": "9.3.9",
+            "name": "Evaluation datasets"
+          },
+          {
+            "id": "9.3.10",
+            "name": "Evaluation bias and limitations"
+          }
+        ]
+      },
+      {
+        "id": "9.4",
+        "name": "Agent Reliability",
+        "items": [
+          {
+            "id": "9.4.1",
+            "name": "Retry strategies"
+          },
+          {
+            "id": "9.4.2",
+            "name": "Timeouts and cancellation"
+          },
+          {
+            "id": "9.4.3",
+            "name": "Fallback models and tools"
+          },
+          {
+            "id": "9.4.4",
+            "name": "Workflow checkpoints"
+          },
+          {
+            "id": "9.4.5",
+            "name": "Idempotent tool execution"
+          },
+          {
+            "id": "9.4.6",
+            "name": "Dead-letter handling"
+          },
+          {
+            "id": "9.4.7",
+            "name": "Partial failure recovery"
+          },
+          {
+            "id": "9.4.8",
+            "name": "Agent loop detection"
+          },
+          {
+            "id": "9.4.9",
+            "name": "Human escalation"
+          },
+          {
+            "id": "9.4.10",
+            "name": "Failure classification"
+          }
+        ]
+      },
+      {
+        "id": "9.5",
+        "name": "AI Release Management",
+        "items": [
+          {
+            "id": "9.5.1",
+            "name": "Prompt versioning"
+          },
+          {
+            "id": "9.5.2",
+            "name": "Model versioning"
+          },
+          {
+            "id": "9.5.3",
+            "name": "Evaluation gates"
+          },
+          {
+            "id": "9.5.4",
+            "name": "Regression testing"
+          },
+          {
+            "id": "9.5.5",
+            "name": "Canary deployments"
+          },
+          {
+            "id": "9.5.6",
+            "name": "Rollbacks"
+          },
+          {
+            "id": "9.5.7",
+            "name": "Experiment tracking"
+          }
+        ]
+      },
+      {
+        "id": "9.6",
+        "name": "Performance and Cost Monitoring",
+        "items": [
+          {
+            "id": "9.6.1",
+            "name": "Token consumption metrics"
+          },
+          {
+            "id": "9.6.2",
+            "name": "Latency metrics"
+          },
+          {
+            "id": "9.6.3",
+            "name": "Cost per task"
+          },
+          {
+            "id": "9.6.4",
+            "name": "Model usage monitoring"
+          },
+          {
+            "id": "9.6.5",
+            "name": "Retry amplification"
+          },
+          {
+            "id": "9.6.6",
+            "name": "Caching effectiveness"
+          },
+          {
+            "id": "9.6.7",
+            "name": "Production performance dashboards"
+          }
+        ]
+      },
+      {
+        "id": "9.7",
+        "name": "Incident Management",
+        "items": [
+          {
+            "id": "9.7.1",
+            "name": "Service-level indicators"
+          },
+          {
+            "id": "9.7.2",
+            "name": "Service-level objectives"
+          },
+          {
+            "id": "9.7.3",
+            "name": "Alert thresholds"
+          },
+          {
+            "id": "9.7.4",
+            "name": "Incident triage"
+          },
+          {
+            "id": "9.7.5",
+            "name": "Root-cause analysis"
+          },
+          {
+            "id": "9.7.6",
+            "name": "Postmortems and corrective actions"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "10",
+    "name": "LLM Inference & Optimization",
+    "priority": "P2",
+    "groups": [
+      {
+        "id": "10.1",
+        "name": "LLM Inference Fundamentals",
+        "items": [
+          {
+            "id": "10.1.1",
+            "name": "Inference execution lifecycle"
+          },
+          {
+            "id": "10.1.2",
+            "name": "Prefill phase"
+          },
+          {
+            "id": "10.1.3",
+            "name": "Decode phase"
+          },
+          {
+            "id": "10.1.4",
+            "name": "Autoregressive token generation"
+          },
+          {
+            "id": "10.1.5",
+            "name": "Memory-bound vs compute-bound workloads"
+          },
+          {
+            "id": "10.1.6",
+            "name": "GPU memory fundamentals"
+          }
+        ]
+      },
+      {
+        "id": "10.2",
+        "name": "Inference Performance Metrics",
+        "items": [
+          {
+            "id": "10.2.1",
+            "name": "Time to first token (TTFT)"
+          },
+          {
+            "id": "10.2.2",
+            "name": "Time per output token (TPOT)"
+          },
+          {
+            "id": "10.2.3",
+            "name": "Tokens per second"
+          },
+          {
+            "id": "10.2.4",
+            "name": "Throughput"
+          },
+          {
+            "id": "10.2.5",
+            "name": "P50, P95 and P99 latency"
+          },
+          {
+            "id": "10.2.6",
+            "name": "Concurrent request performance"
+          },
+          {
+            "id": "10.2.7",
+            "name": "Memory utilization"
+          }
+        ]
+      },
+      {
+        "id": "10.3",
+        "name": "KV Cache",
+        "items": [
+          {
+            "id": "10.3.1",
+            "name": "Why KV caching exists"
+          },
+          {
+            "id": "10.3.2",
+            "name": "Attention computation without cache"
+          },
+          {
+            "id": "10.3.3",
+            "name": "KV cache architecture"
+          },
+          {
+            "id": "10.3.4",
+            "name": "Memory complexity"
+          },
+          {
+            "id": "10.3.5",
+            "name": "Cache growth with context length"
+          },
+          {
+            "id": "10.3.6",
+            "name": "Multi-query and grouped-query attention"
+          },
+          {
+            "id": "10.3.7",
+            "name": "Prefix caching"
+          }
+        ]
+      },
+      {
+        "id": "10.4",
+        "name": "PagedAttention",
+        "items": [
+          {
+            "id": "10.4.1",
+            "name": "KV cache fragmentation"
+          },
+          {
+            "id": "10.4.2",
+            "name": "Logical and physical memory blocks"
+          },
+          {
+            "id": "10.4.3",
+            "name": "Block tables"
+          },
+          {
+            "id": "10.4.4",
+            "name": "Memory allocation and reuse"
+          },
+          {
+            "id": "10.4.5",
+            "name": "PagedAttention architecture"
+          },
+          {
+            "id": "10.4.6",
+            "name": "Throughput benefits and tradeoffs"
+          }
+        ]
+      },
+      {
+        "id": "10.5",
+        "name": "Batching and Scheduling",
+        "items": [
+          {
+            "id": "10.5.1",
+            "name": "Static batching"
+          },
+          {
+            "id": "10.5.2",
+            "name": "Dynamic batching"
+          },
+          {
+            "id": "10.5.3",
+            "name": "Continuous batching"
+          },
+          {
+            "id": "10.5.4",
+            "name": "Request admission"
+          },
+          {
+            "id": "10.5.5",
+            "name": "Scheduling policies"
+          },
+          {
+            "id": "10.5.6",
+            "name": "Throughput vs latency tradeoffs"
+          }
+        ]
+      },
+      {
+        "id": "10.6",
+        "name": "Quantization",
+        "items": [
+          {
+            "id": "10.6.1",
+            "name": "Numerical precision"
+          },
+          {
+            "id": "10.6.2",
+            "name": "FP32, FP16 and BF16"
+          },
+          {
+            "id": "10.6.3",
+            "name": "INT8 and INT4"
+          },
+          {
+            "id": "10.6.4",
+            "name": "Post-training quantization"
+          },
+          {
+            "id": "10.6.5",
+            "name": "GPTQ"
+          },
+          {
+            "id": "10.6.6",
+            "name": "AWQ"
+          },
+          {
+            "id": "10.6.7",
+            "name": "SmoothQuant"
+          },
+          {
+            "id": "10.6.8",
+            "name": "Accuracy vs compression tradeoffs"
+          }
+        ]
+      },
+      {
+        "id": "10.7",
+        "name": "Model Serving",
+        "items": [
+          {
+            "id": "10.7.1",
+            "name": "vLLM architecture"
+          },
+          {
+            "id": "10.7.2",
+            "name": "Local vs hosted inference"
+          },
+          {
+            "id": "10.7.3",
+            "name": "Serving APIs"
+          },
+          {
+            "id": "10.7.4",
+            "name": "Model loading and memory"
+          },
+          {
+            "id": "10.7.5",
+            "name": "Tensor parallelism concepts"
+          },
+          {
+            "id": "10.7.6",
+            "name": "Multi-model serving"
+          },
+          {
+            "id": "10.7.7",
+            "name": "Autoscaling inference workloads"
+          }
+        ]
+      },
+      {
+        "id": "10.8",
+        "name": "Application-Level Optimization",
+        "items": [
+          {
+            "id": "10.8.1",
+            "name": "Prompt caching"
+          },
+          {
+            "id": "10.8.2",
+            "name": "Semantic caching"
+          },
+          {
+            "id": "10.8.3",
+            "name": "Model routing"
+          },
+          {
+            "id": "10.8.4",
+            "name": "Prompt compression"
+          },
+          {
+            "id": "10.8.5",
+            "name": "Parallel tool execution"
+          },
+          {
+            "id": "10.8.6",
+            "name": "Reducing unnecessary agent loops"
+          },
+          {
+            "id": "10.8.7",
+            "name": "Latency, quality and cost tradeoffs"
+          },
+          {
+            "id": "10.8.8",
+            "name": "Benchmarking optimization changes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "11",
+    "name": "AI Security, Safety & Governance",
+    "priority": "P1",
+    "groups": [
+      {
+        "id": "11.1",
+        "name": "Security Foundations",
+        "items": [
+          {
+            "id": "11.1.1",
+            "name": "Confidentiality, integrity and availability"
+          },
+          {
+            "id": "11.1.2",
+            "name": "Authentication vs authorization"
+          },
+          {
+            "id": "11.1.3",
+            "name": "Least privilege"
+          },
+          {
+            "id": "11.1.4",
+            "name": "Trust boundaries"
+          },
+          {
+            "id": "11.1.5",
+            "name": "Threat modeling"
+          },
+          {
+            "id": "11.1.6",
+            "name": "Secrets management"
+          }
+        ]
+      },
+      {
+        "id": "11.2",
+        "name": "LLM Security",
+        "items": [
+          {
+            "id": "11.2.1",
+            "name": "Direct prompt injection"
+          },
+          {
+            "id": "11.2.2",
+            "name": "Indirect prompt injection"
+          },
+          {
+            "id": "11.2.3",
+            "name": "Untrusted retrieved content"
+          },
+          {
+            "id": "11.2.4",
+            "name": "Data exfiltration risks"
+          },
+          {
+            "id": "11.2.5",
+            "name": "Sensitive information disclosure"
+          },
+          {
+            "id": "11.2.6",
+            "name": "Unsafe output handling"
+          },
+          {
+            "id": "11.2.7",
+            "name": "Model and tool misuse"
+          }
+        ]
+      },
+      {
+        "id": "11.3",
+        "name": "Agent Security",
+        "items": [
+          {
+            "id": "11.3.1",
+            "name": "Agent permission models"
+          },
+          {
+            "id": "11.3.2",
+            "name": "Tool execution authorization"
+          },
+          {
+            "id": "11.3.3",
+            "name": "Sandboxing"
+          },
+          {
+            "id": "11.3.4",
+            "name": "Secure browser automation"
+          },
+          {
+            "id": "11.3.5",
+            "name": "Human approval gates"
+          },
+          {
+            "id": "11.3.6",
+            "name": "Agent identity and delegation"
+          },
+          {
+            "id": "11.3.7",
+            "name": "Untrusted agent communication"
+          },
+          {
+            "id": "11.3.8",
+            "name": "Memory poisoning"
+          }
+        ]
+      },
+      {
+        "id": "11.4",
+        "name": "MCP Security",
+        "items": [
+          {
+            "id": "11.4.1",
+            "name": "Malicious MCP servers"
+          },
+          {
+            "id": "11.4.2",
+            "name": "Tool description poisoning"
+          },
+          {
+            "id": "11.4.3",
+            "name": "Excessive permissions"
+          },
+          {
+            "id": "11.4.4",
+            "name": "Token handling"
+          },
+          {
+            "id": "11.4.5",
+            "name": "OAuth scope enforcement"
+          },
+          {
+            "id": "11.4.6",
+            "name": "Cross-tenant data isolation"
+          },
+          {
+            "id": "11.4.7",
+            "name": "Secure MCP gateways"
+          },
+          {
+            "id": "11.4.8",
+            "name": "Audit logging"
+          }
+        ]
+      },
+      {
+        "id": "11.5",
+        "name": "Privacy and Data Protection",
+        "items": [
+          {
+            "id": "11.5.1",
+            "name": "PII identification"
+          },
+          {
+            "id": "11.5.2",
+            "name": "Data minimization"
+          },
+          {
+            "id": "11.5.3",
+            "name": "Encryption in transit and at rest"
+          },
+          {
+            "id": "11.5.4",
+            "name": "Data retention and deletion"
+          },
+          {
+            "id": "11.5.5",
+            "name": "User consent concepts"
+          },
+          {
+            "id": "11.5.6",
+            "name": "Access control and auditability"
+          },
+          {
+            "id": "11.5.7",
+            "name": "Relevant privacy compliance concepts"
+          }
+        ]
+      },
+      {
+        "id": "11.6",
+        "name": "AI Safety and Governance",
+        "items": [
+          {
+            "id": "11.6.1",
+            "name": "Guardrails and policy enforcement"
+          },
+          {
+            "id": "11.6.2",
+            "name": "Input and output validation"
+          },
+          {
+            "id": "11.6.3",
+            "name": "Risk classification"
+          },
+          {
+            "id": "11.6.4",
+            "name": "Human oversight"
+          },
+          {
+            "id": "11.6.5",
+            "name": "Explainability and traceability"
+          },
+          {
+            "id": "11.6.6",
+            "name": "Governance documentation"
+          },
+          {
+            "id": "11.6.7",
+            "name": "AI system risk assessments"
+          },
+          {
+            "id": "11.6.8",
+            "name": "Continuous security evaluation"
+          }
+        ]
+      }
+    ]
+  }
+]
